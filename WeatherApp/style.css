@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* main body */
+body{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+	font-family: Arial, sans-serif,helvetica;
+	color: #fff;
+}
+/* Main container */
+.container{
+	width: 500px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+
+}
+/* heading of the container */
+.container h1{
+	padding: 1px 0px;
+	margin-top: 3%;
+
+}
+/* this is input feild for search cities  */
+.container .inputTxt{
+	height: 35px;
+	width: 300px;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	padding: 10px;
+	margin: 0 50px;
+	padding-left: 10px;
+	margin-top: 2%;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: capitalize;
+	box-sizing: border-box;
+
+}
+/* placeholder of input feild */
+
+::placeholder{
+	color: #d4d4d4;
+}
+
+/* this is button for submiting command  */
+
+.btn{
+	padding: 10px 30px;
+	margin: 10px 0px;
+	margin-top: 5%;
+	border: none;
+	outline: none;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+
+}
+/* on button hover */
+
+.btn:hover{
+	background: #fff;
+	color: #000;
+
+}
+/* this class is for all the detail of weather according to city or country */
+.showDetails{
+	margin: 70px 0px;
+	line-height: 1.6;
+	padding: 8px;
+	margin-top: .5%;
+
+
+}
+/* un order list of details */
+.showDetails ul{
+	list-style-type: none;
+	
+}
+.showDetails li{
+	display: flex;
+	flex-direction: column;
+	position: vertical;
+}
+.showDetails .city{
+	font-size: 5rem;
+}
+.showDetails .temp{
+	font-size: 4rem;
+	font-weight: bold;
+
+}
+.showDetails .range{
+	font-size: 3rem;
+	text-transform: capitalize;
+
+}
